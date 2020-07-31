@@ -1,0 +1,32 @@
+
+STUDENT’S NAME: OBITA GODFREY
+REG. NO: 2018-B071-10029.
+UNSA WEBSITE DATABASE SQL CODES:
+1.	   CREATE DATABASE unsa; 
+
+2.	CREATE TABLE users(
+u_id int(20) AUTO_INCREMENT PRIMARY KEY,
+usa_name varchar(200) NOT NULL,
+user_email varchar(200) NOT NULL,
+u_password varchar(200) NOT NULL,
+reg_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
+
+
+
+
+TABLE TWO     
+
+3.	CREATE TABLE community_chat(
+
+Post_No int(20) AUTO_INCREMENT PRIMARY KEY,
+Usermail varchar(200) NOT NULL,
+School varchar(200) NOT NULL,
+Post_Title varchar(200) NOT NULL,
+Post_Message varchar(200) NOT NULL,
+Attatchment varchar(200) NOT NULL,
+Date_Time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP    
+);
+
+
+
